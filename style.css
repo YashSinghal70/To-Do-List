@@ -91,12 +91,12 @@ font-weight: 500;
 }
 
 .ul-show span {
-  /* width: 100%; */
-  flex: 1;
+  width: 80%;
+  /* flex: 1; */
 }
 
 .ul-show input[type="text"] {
-  width: 70%;
+  width: 55%;
   /* flex: 1; */
   margin-right: 10px;
   padding: 6px;
@@ -155,12 +155,12 @@ font-weight: 500;
   display: block;
 }
 .editbtn{
-    padding: 4px 4px;
+    padding: 4px 3px;
   background-color: #0087ef;
   border: none;
-  border-radius: 8px;
+  border-radius: 7px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -170,4 +170,65 @@ font-weight: 500;
   background-color: #0087efc5;
   transform: scale(0.95);
 
+}
+
+/*  */
+/* .ul-show span {
+  width: 80%;
+} */
+
+
+/* .ul-show input[type="text"] {
+  width: 55%;
+  margin-right: 10px;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+} */
+
+/* .editbtn{
+    padding: 4px 3px;
+  background-color: #0087ef;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+  cursor: pointer;
+} */
+
+@media only screen and (min-width:440px) {
+  .ul-show input[type="text"] {
+  width:63%;
+  }
+}
+
+@media only screen and (min-width:540px) {
+  .ul-show span {
+  width: 100%;
+}
+
+
+.ul-show input[type="text"] {
+  width: 70%;
+  margin-right: 10px;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.editbtn{
+    padding: 4px 4px;
+  background-color: #0087ef;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+  cursor: pointer;
+}
 }
